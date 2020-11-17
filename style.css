@@ -1,3 +1,54 @@
 body {
-  background-color: yellow;
+  background-color: rgba(27, 27, 30, 1);
+}
+
+.top {
+  margin-top: 10rem;
+  position: relative;
+}
+
+.f-dir {
+  flex-direction: column;
+}
+
+h6 {
+  align-self: flex-end;
+  margin-left: 15px;
+  font: poppins;
+}
+
+.nav {
+  text-align: right;
+}
+
+aside ul {
+  font: bold 12px Sans-Serif;
+  letter-spacing: 2px;
+  color: #fff;
+  padding: 5px 10px;
+  margin: 0 0 10px 0;
+  line-height: 24px;
+  list-style: none;
+}
+
+aside li {
+  margin-right: 10px;
+}
+
+aside ul {
+  /* Abs positioning makes it not take up vert space */
+  position: absolute;
+  top: 0;
+  left: 0;
+ 
+  /* Border is the new background */
+  background: none;
+
+  /* Rotate from top left corner (not default) */
+  transform-origin: 0 0;
+  transform: rotate(90deg);
+}
+
+.name {
+ margin-left: 17rem;
 }
